@@ -3,6 +3,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="shade">#28FFFFFF</color>>
-    <color name="startcolorgradient">#FF5733</color>>
-    <color name="endcolorgradient">#C70039</color>>
+    <color name="startcolorgradient">#443C20</color>>
+    <color name="endcolorgradient"> #e8a564</color>>
 </resources>

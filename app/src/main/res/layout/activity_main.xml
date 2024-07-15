@@ -9,10 +9,11 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:id="@+id/front_img"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="@color/shade">
+        android:background="@color/shade"
+        android:orientation="vertical">
 
 
     </LinearLayout>
@@ -70,6 +71,17 @@
             android:text="@string/login"
             android:textColor="@color/white"
             android:textColorLink="@color/white" />
+
+        <TextView
+            android:id="@+id/skip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="Skip"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 </RelativeLayout>
