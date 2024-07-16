@@ -5,4 +5,6 @@
     <color name="shade">#28FFFFFF</color>>
     <color name="startcolorgradient">#443C20</color>>
     <color name="endcolorgradient"> #e8a564</color>>
+    <color name="fbcolor">#3c62ac</color>
+    <color name="google">#DD4A40</color>
 </resources>
