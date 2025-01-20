@@ -3,8 +3,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="shade">#1EFFFFFF</color>>
-    <color name="startcolorgradient">#443C20</color>>
-    <color name="endcolorgradient"> #e8a564</color>>
+    <color name="startcolorgradient">#443C20</color>
+    <color name="endcolorgradient"> #e8a564</color>
     <color name="fbcolor">#3c62ac</color>
     <color name="google">#DD4A40</color>
+    <color name="primaryColor">#12F2F2</color>
 </resources>

@@ -7,6 +7,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 public class SignupActivity extends AppCompatActivity {
     TextView already;
@@ -16,9 +17,7 @@ public class SignupActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
 
-        if (getSupportActionBar() != null) {
-            getSupportActionBar().setTitle("Sign up");
-        }
+
         already=findViewById(R.id.already);
         already.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,5 +27,9 @@ public class SignupActivity extends AppCompatActivity {
                 startActivity(it);
             }
         });
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Signup");
     }
 }
